@@ -147,8 +147,11 @@ body {
 	min-height: 60px;
 	border-radius: 6px;
 }
-
-	.tweet .avatar {
+.tweet:hover .tweet-actions {
+    visibility: visible;
+}
+	
+.tweet .avatar {
 		float: left;
 		margin-right: 10px;
 	}
@@ -168,6 +171,7 @@ body {
 
 	.tweet-actions {
 		text-align: right;
+        visibility: hidden;
 	}
 		.tweet-actions ul {
 			list-style-type: none;
