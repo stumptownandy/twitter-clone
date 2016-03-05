@@ -36,7 +36,7 @@ $(document).ready(function () {
 		else {
 			$('.tweet-controls button').prop('disabled', false);
 		}
-	});
+	}); 
    $(".tweet-compose").keyup(function(){
       var charCount =  140
        var tweetLength = $(".tweet-compose").val().length
